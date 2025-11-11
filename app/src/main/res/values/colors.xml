@@ -2,4 +2,31 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="primaryColor">#003096</color>
+    <color name="secondaryColor">#F5F5F5</color>
+    <color name="primaryColorAccent">#F2F6FA</color>
+
+    <color name="primaryColorAccentVarient">#3183FF</color>
+
+    <color name="textColor">#181818</color>
+    <color name="subTextColor">#8E8787</color>
+    <color name="desTextColor">#B7B0B0</color>
+
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="backgroundColorGray">#D3D3D3</color>
+
+
+
+
+    <color name="darkPrimaryColor">#FF000000</color>
+    <color name="darkSecondaryColor">#1D80E2</color>
+
+
+    <!-- Active Icon Color (filled) -->
+    <color name="colorActive">#01579B</color>
+    <!-- Inactive Icon Color (unfilled) -->
+    <color name="colorInactive">#FFFFFFFF</color>
+
+
 </resources>
