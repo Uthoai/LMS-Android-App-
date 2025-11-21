@@ -150,7 +150,7 @@
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="0dp"
         android:layout_height="0dp"
-        tools:listitem="@layout/home_item"
+        tools:listitem="@layout/home_course_item"
         android:padding="8dp"
         android:clipToPadding="false"
         app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"

@@ -18,6 +18,7 @@ ssp_sdp_version = "1.1.0"
 glide = "4.16.0"
 hilt_version = "2.48"
 recyclerview = "1.4.0"
+cardview = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -42,6 +43,7 @@ sdp-android = { group = "com.intuit.sdp", name = "sdp-android", version.ref = "s
 ssp-android = { group = "com.intuit.ssp", name = "ssp-android", version.ref = "ssp_sdp_version" }
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 androidx-recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+androidx-cardview = { group = "androidx.cardview", name = "cardview", version.ref = "cardview" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
