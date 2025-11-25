@@ -9,7 +9,11 @@
         android:id="@+id/signInFragment"
         android:name="com.lms_application.SignInFragment"
         android:label="fragment_sign_in"
-        tools:layout="@layout/fragment_sign_in" />
+        tools:layout="@layout/fragment_sign_in" >
+        <action
+            android:id="@+id/action_signInFragment_to_resetPasswordFragment"
+            app:destination="@id/resetPasswordFragment" />
+    </fragment>
     <fragment
         android:id="@+id/signUpFragment"
         android:name="com.lms_application.SignUpFragment"
@@ -19,27 +23,50 @@
         android:id="@+id/onBoardfScreen01Fragment"
         android:name="com.lms_application.OnBoardfScreen01Fragment"
         android:label="fragment_on_boardf_screen01"
-        tools:layout="@layout/fragment_on_board_screen01" />
+        tools:layout="@layout/fragment_on_board_screen01" >
+        <action
+            android:id="@+id/action_onBoardfScreen01Fragment_to_onBoardScreen02Fragment"
+            app:destination="@id/onBoardScreen02Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/onBoardScreen02Fragment"
         android:name="com.lms_application.OnBoardScreen02Fragment"
         android:label="fragment_on_board_screen02"
-        tools:layout="@layout/fragment_on_board_screen02" />
+        tools:layout="@layout/fragment_on_board_screen02" >
+        <action
+            android:id="@+id/action_onBoardScreen02Fragment_to_onBoardScreen03Fragment"
+            app:destination="@id/onBoardScreen03Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/onBoardScreen03Fragment"
         android:name="com.lms_application.OnBoardScreen03Fragment"
         android:label="fragment_on_board_screen03"
-        tools:layout="@layout/fragment_on_board_screen03" />
+        tools:layout="@layout/fragment_on_board_screen03" >
+        <action
+            android:id="@+id/action_onBoardScreen03Fragment_to_onBoardScreen04Fragment"
+            app:destination="@id/onBoardScreen04Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/onBoardScreen04Fragment"
         android:name="com.lms_application.OnBoardScreen04Fragment"
         android:label="fragment_on_board_screen04"
-        tools:layout="@layout/fragment_on_board_screen04" />
+        tools:layout="@layout/fragment_on_board_screen04" >
+        <action
+            android:id="@+id/action_onBoardScreen04Fragment_to_onBoardScreen05Fragment"
+            app:destination="@id/onBoardScreen05Fragment" />
+    </fragment>
     <fragment
         android:id="@+id/onBoardScreen05Fragment"
         android:name="com.lms_application.OnBoardScreen05Fragment"
         android:label="fragment_on_board_screen05"
-        tools:layout="@layout/fragment_on_board_screen05" />
+        tools:layout="@layout/fragment_on_board_screen05" >
+        <action
+            android:id="@+id/action_onBoardScreen05Fragment_to_signUpFragment"
+            app:destination="@id/signUpFragment" />
+        <action
+            android:id="@+id/action_onBoardScreen05Fragment_to_signInFragment"
+            app:destination="@id/signInFragment" />
+    </fragment>
     <fragment
         android:id="@+id/resetPasswordFragment"
         android:name="com.lms_application.ResetPasswordFragment"
